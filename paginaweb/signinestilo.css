@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right, #8c366c 0%,#6f64e7 100%);
+}
+div#div-formulario{
+    width: 800px;
+    height: 500px;
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+    border: 0.2em #e71ca0 solid;
+    border-radius: 25px;
+    background-color: #F2EBE9;
+    box-shadow: 5px 5px rgb(223, 230, 215);
+    margin-top: 100px;
+    background:linear-gradient(90deg, #65997d 10%, #eecb31ee 90%) ;
+}
+form{
+    text-align: center;
+}
+h1, label{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-transform: uppercase;
+}
+label{
+    display: block;
+}
+input:focus{
+    border-color: aqua;
+    width: 200px;
+    transition: 1s;
+}
+input{
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 150px;
+    border-color: rgb(72, 255, 0);
+}
+input#boton-aceptar{
+    background-color: rgb(163, 229, 255);
+    width: 125px;
+}

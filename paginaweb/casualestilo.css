@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(to right, #8c366c 0%,#6f64e7 100%);
+}
+#cabeza{
+    padding: 2%;
+    border-radius: 5%;
+    text-align: center;
+    text-decoration: underline;
+}
+h1{
+    margin-top: 0;
+}
+#juegos{
+    margin-left: 40em;
+    margin-top: 5em;
+    font-style: italic;
+
+}
+#juegos>a,img{
+    margin:10px auto;
+    border-radius:5px;
+    padding:20px;
+    width:220px;
+    height:220px;
+    background-size: 100% 100%;
+    background-size: cover;
+}
